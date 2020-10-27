@@ -14,6 +14,7 @@
             <div class="flex flex-wrap w-1/2 justify-center">
                 <?php
                     include 'src/funkcje.php';
+                    include('src/petle.php');
                     include 'src/operatory.php';
                 ?>
             </div>
