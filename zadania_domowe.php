@@ -39,13 +39,12 @@
 $male= ['wszytkie', 'te', 'slowa', 'sa', 'wielkimi', 'literami'];
 function cube($arg)
 {   
-    strtoupper($arg);
+    return (strtoupper($arg));  
 }
 $duze = array_map("cube", $male);
-print_r($male);
+print_r($duze);
 
 echo('</br>');
-
 #Zadanie 4
 
 $tekstDozmiany = 'cytryna';

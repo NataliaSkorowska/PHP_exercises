@@ -7,15 +7,13 @@
 
         <link href="/src/assets/styles/tailwind/tailwind.css" rel="stylesheet">
 
-        <title>Projekt wprowadzający</title>
+        <title>Zadania domowe</title>
     </head>
     <body>
         <div class="flex relative w-full justify-center">
             <div class="flex flex-wrap w-1/2 justify-center">
                 <?php
-                    include 'src/funkcje.php';
-                    include('src/petle.php');
-                    include 'src/operatory.php';
+                    include ('zadania_domowe.php');
                 ?>
             </div>
         </div>
