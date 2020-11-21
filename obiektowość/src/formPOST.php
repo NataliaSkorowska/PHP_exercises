@@ -1,5 +1,5 @@
 <?php
-//require_once('pozyczka.php/pozyczka.php');
+//require_once('pozyczka/pozyczka.php');
 
 //session_start();
 
@@ -17,8 +17,8 @@ echo('</br></br>');
 
 echo $pozyczkaOrg -> wyliczOprocentowanie() . '</br>'; */
 
-require_once('pozyczka.php/pozyczka.php');
-require_once('pozyczka.php/pozyczkaSwiateczna.php');
+require_once('pozyczka/pozyczka.php');
+require_once('pozyczka/pozyczkaSwiateczna.php');
 
 session_start();
 
